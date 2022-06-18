@@ -3,6 +3,7 @@
     margin: 0PX;
     box-sizing: border-box;
     font-size: 18px;
+    height: auto;
 }
 
 main{
@@ -12,7 +13,6 @@ main{
 margin: auto;
 display: flex;
 width: 100%;
-height: 20%;
 background-color: hsl(193, 100%, 96%);
 }
 .divtop1{
@@ -27,7 +27,6 @@ background-color: hsl(193, 100%, 96%);
 .row1{
     display: flex;
   width: 100%;
-height: 20%;
 background-color: hsl(193, 100%, 96%);
 }
 
@@ -50,11 +49,22 @@ text-align: center;
   
 
 .div1{
-    width: 30%;
+    width: 50%;
     align-items: center;
 justify-content:  center;
 text-align: center;
 
+}
+.div1a{
+   width: 50%;
+   align-items: center;
+justify-items: center; 
+
+}
+.img{
+
+    max-width: 100%;
+    height: auto;
 }
 
 .btn1{
@@ -70,19 +80,6 @@ margin: auto;
 text-align: center;
 
 }
-.div1a{
-   width: 70%;
-   align-items: left;
-justify-items: left; */
-/* text-align: left;
- object-fit: cover; */
-
-}
-.img{
-
-    height: 100%; 
-    width: 100%; 
-    object-fit: cover;}
 
 .row2{
     margin: 20px;
@@ -91,7 +88,6 @@ justify-items: left; */
  width: 100%; 
 align-items: center;
 justify-items: center;
-height: 15%;
 border-style: solid;
 border-color: rgb(247, 249, 250);
 border-radius: 0.2cm;
@@ -113,7 +109,6 @@ border-radius: 0.2cm;
  width: 100%; 
 align-items: center;
 justify-items: center;
-height: 15%;
 border-style: solid;
 border-color: rgb(247, 249, 250);
 border-radius: 0.2cm;
@@ -137,7 +132,6 @@ border-radius: 0.2cm;
  width: 100%; 
 align-items: center;
 justify-items: center;
-height: 15%;
 border-style: solid;
 border-color: rgb(247, 249, 250);
 border-radius: 0.2cm
@@ -159,7 +153,6 @@ margin: auto;
 display: flex;
 float: center;
 align-items: center;
-height: 10%;
 background-color:white;
 width: 50%;
 border-style: solid;
@@ -185,7 +178,6 @@ margin: auto;
 display: flex;
 background-color: hsl(192, 100%, 9%);
 width: 100%; 
-height: 15%;
 color: white; 
 }
 
@@ -245,7 +237,6 @@ h3{
 }
 
 
-
 h3{
     font-family: Poppins;
     font-weight: 600;
@@ -260,11 +251,12 @@ p{
    .main,.row1,.row2,.row3,.row4,.row5,.row6{ flex-direction: column;}
    .row6a,.div6a,.div6b,.div6c,.div6cc{width:100%; text-align:left; align-items: left; justify-items: left;}
    .div1a,.div2a,.div3,.div4a{width: 100%;
-object-fit: cover; }
-
+    height: auto;
+}
 
  .div1{width:100%;
 } 
+
 .div6b,.div6c{
     text-align: left;
     align-items: flex-start;
